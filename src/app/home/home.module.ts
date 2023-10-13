@@ -6,14 +6,11 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { HeaderComponent } from './component/header/header.component';
+import { PopoverComponent } from './component/header/popover/popover.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    HomePageRoutingModule
-  ],
-  declarations: [HomePage]
+  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
+  declarations: [HomePage, HeaderComponent, PopoverComponent],
 })
 export class HomePageModule {}

@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["tsconfig.json"],
+        "project": ["./linkedin/tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [
